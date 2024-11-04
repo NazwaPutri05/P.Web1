@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ffe6fa;
+    color: #000000;
+}
+
+h1 {
+    color: #ff76e1;
+}
+
+h2 {
+    color: #ff76e1;
+}
+
+.program-studi {
+    border: 1px solid #ffe6fa;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.subheading {
+    font-weight: bold;
+    color: #e591ff;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
