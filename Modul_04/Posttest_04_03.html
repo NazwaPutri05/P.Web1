@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh JavaScript</title>
+</head>
+<body>
+    <script>
+        function tampilkanPesan() {
+    let pesan = "Halo, ini pesan dari dalam fungsi!"; // Local scope
+    console.log(pesan); // Ini akan berhasil, karena variabel ada di dalam fungsi yang sama
+}
+tampilkanPesan(); // Memanggil fungsi untuk menampilkan pesan
+console.log(pesan); // Ini akan error, karena 'pesan' hanya bisa diakses di dalam fungsi tampilkanPesan
+    </script> 
+</body>
+</html>

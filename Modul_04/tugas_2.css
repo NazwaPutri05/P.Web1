@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #0078D4;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+input[type="text"] {
+    padding: 10px;
+    width: 50%;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.profil {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.kartu-profil {
+    background: white;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.kartu-profil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.kartu-profil h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+.kartu-profil p {
+    font-size: 12px;
+    color: #666;
+}
+.kartu-profil:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
